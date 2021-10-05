@@ -1,11 +1,8 @@
 var accordion = document.querySelector('#accordion');
-
 var titles = accordion.getElementsByTagName('h2');
 
 for (i = 0; i < titles.length; i++) {
-
     titles[i].addEventListener('click', displayAccordion);
-
 }
 
 function displayAccordion() {
@@ -16,9 +13,4 @@ function displayAccordion() {
     } else {
         content.style.display = 'none';
     }
-
-
-
 }
-
-
